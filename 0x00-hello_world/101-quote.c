@@ -1,11 +1,11 @@
-#include<stdio.h>
 /**
-*main - print size of data 
-*   
-*Return: Always 0
+main - program execution starts here
+Description: this is the main function
+Return: an integer to signify success or fail
 */
 int main(void)
 {
-fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+					59, 1, stderr);
 return (1);
 }
